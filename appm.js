@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const blogRoutes=require('./routes/blogRoutes');
 
 //connect to mongodb server
-const dbURI='mongodb+srv://Codess:Anshika123@blogsproject.nxcqo.mongodb.net/blogproject?retryWrites=true&w=majority';
+const dbURI='mongodb+srv://password@blogsproject.nxcqo.mongodb.net/blogproject?retryWrites=true&w=majority';
 mongoose.connect(dbURI)
     .then((result) => {
         console.log("connected to the db");
